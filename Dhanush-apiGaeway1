@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Dhanush-apiGteway1
+  cloud:
+    gateway:
+      server:
+        webflux:
+          discovery:
+            locator:
+              enabled: true
+      route-refresh-listener:
+        enabled: 
+server:
+  port: 8086
+ 
+  
