@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Dhanush-2Welcome
+  boot:
+    admin:
+      client:
+        url: http://localhost:9095
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
